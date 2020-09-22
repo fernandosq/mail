@@ -19,8 +19,14 @@
         <div id="inbox-name"></div>
         <div id="emails-list"></div>
     </div>
-    <div id="email_view">
-        <p>{{ email.sender}}{{ email.body}}{{ email.timestamp}}{{ email.subject }} </p>
+    <div id="email-view">
+        <p id="from">From:</p>
+        <p id="to">To:</p>
+        <p id="subject">Subject:</p>
+        <p id="timestamp">Timestamp:</p>
+        <button id="reply">Reply</button>
+        <p id="body"></p>
+
     </div>
 
     <div id="compose-view">
